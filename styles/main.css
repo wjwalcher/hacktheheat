@@ -1,0 +1,26 @@
+body {
+  padding-top: 50px;
+}   
+.clear {
+  margin-top:60px;
+  margin-bottom:60px;  
+}       
+.block1 {
+  height: 440px;
+  margin-bottom:60px;  
+} 
+.block2 {
+  height: 200px; 
+}     
+.bg-clr {
+  background-color: blueviolet;  
+}
+.bg-clr-blk {
+  background-color: black;  
+} 
+.section-max-width {
+  max-width:800px; 
+}
+b {
+  color:black;  
+}
