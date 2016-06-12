@@ -21,6 +21,10 @@ body {
 .section-max-width {
   max-width:800px; 
 }
+#map{
+  
+  width:800px;
+}
 b {
   color:black;  
 }
