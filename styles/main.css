@@ -21,8 +21,17 @@ body {
 .section-max-width {
   max-width:800px; 
 }
+#subtitle{
+  font-size:20px;
+}
 #map{
   width:800px;
+  margin-top:30px;
+}
+.header{
+  padding-bottom:10px;
+  margin-top:-43px;
+  background-color:#01cdfe;
 }
 b {
   color:black;  
