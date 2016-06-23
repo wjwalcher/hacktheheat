@@ -2,6 +2,11 @@
   function initialize() {
         var mapOptions = {
           zoom: 17,
+          draggable: false,
+          scrollwheel:false,
+          navigationControl: false,
+          mapTypeControl: false,
+          scaleControl: false,
           center: new google.maps.LatLng(44.9995764, -93.2505643),
           mapTypeId: google.maps.MapTypeId.ROAD
         };
@@ -18,11 +23,13 @@
     
     //when the center has changed, but not the size of the map
     if(!this.get('size') || size===this.get('size')){
-       this.setValues({size:size,_center:this.getCenter()});         
+       console.log('ccc');
+       this.setValues({size:size,_center:this.getCenter()});   
+       google.maps.event.trigger(map, "resize");      
     }
     //when the map has been resized
     else{
-      google.maps.event.addListenerOnce(this,'idle',function(){
+      google.maps.event.addListenerOnce(this,'idle',function(){console.log('rrr');
       this.setValues({size:size,center:this.get('_center')});});      
     }
   });
