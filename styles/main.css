@@ -51,6 +51,12 @@ a:hover{
   max-width:800px; 
 }
 
+
+#map{
+  width:800px;
+  margin-top:30px;
+}
+
 b {
   color:black;  
 }
