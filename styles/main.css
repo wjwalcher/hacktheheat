@@ -1,6 +1,30 @@
 body {
   padding-top: 50px;
 }   
+
+@font-face{
+  font-family: "Lazer84";
+  src: url('../assets/Lazer84.ttf');
+}
+
+@font-face{
+  font-family: "retganon";
+  src: url('../assets/retganon.ttf');
+}
+
+h1{
+  font-family: "Lazer84"
+}
+
+p{
+  font-size: 1.5em;
+  font-family: "retganon"
+}
+
+a:hover{
+  color:black;
+}
+
 .clear {
   margin-top:60px;
   margin-bottom:60px;  
@@ -13,7 +37,8 @@ body {
   height: 200px; 
 }     
 .bg-clr {
-  background-color: blueviolet;  
+  background: linear-gradient(#FF6AD5, #8795E8);  
+  background-attachment: fixed;
 }
 .bg-clr-blk {
   background-color: black;  
@@ -21,10 +46,7 @@ body {
 .section-max-width {
   max-width:800px; 
 }
-#map{
-  
-  width:800px;
-}
+
 b {
   color:black;  
 }
