@@ -21,6 +21,10 @@ p{
   font-family: "retganon"
 }
 
+.sponsor:hover{
+  opacity:0.3;
+}
+
 a:hover{
   color:black;
 }
