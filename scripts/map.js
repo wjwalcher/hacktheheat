@@ -1,18 +1,19 @@
 
   function initialize() {
         var mapOptions = {
-          zoom: 17,
+          zoom: 18,
           draggable: false,
           scrollwheel:false,
           navigationControl: false,
           mapTypeControl: false,
           scaleControl: false,
-          center: new google.maps.LatLng(44.9995764, -93.2505643),
+          center: new google.maps.LatLng(44.9883707, -93.2772887),
           mapTypeId: google.maps.MapTypeId.ROAD
         };
         map = new google.maps.Map(document.getElementById('map'),
             mapOptions);
-        new google.maps.Marker({map:map,position:map.getCenter()})
+        map.data.loadGeoJson('../assets/map.geojson');
+        new google.maps.Marker({map:map,position:map.getCenter(),label:"Power Objects"})
         
         
 
