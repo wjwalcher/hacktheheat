@@ -4262,7 +4262,7 @@ nav .input-field label.active {
 }
 
 @font-face{
-  font-family: "Lazer84";
+  font-family: "Roboto";
   src: url("../fonts/Lazer84.ttf");
 }
 
@@ -4301,13 +4301,18 @@ nav .input-field label.active {
   font-weight: 700;
 }
 
+@font-face{
+  font-family: "Lazer84";
+  src: url("../fonts/Lazer84.ttf");
+}
+
 a {
   text-decoration: none;
 }
 
 html {
   line-height: 1.5;
-  font-family: "Lazer84", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }

@@ -15,6 +15,9 @@ p {
   line-height: 2rem;
 }
 
+.lazer{
+  font-family:'Lazer84' !important;
+}
 .button-collapse {
   color: #26a69a;
 }
