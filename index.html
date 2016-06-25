@@ -7,14 +7,17 @@
 
   <!-- CSS  -->
   <script src="https://use.fontawesome.com/32f50d9df6.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript" src="js/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrzmHdjqG_uLD199Vw7ZVBSGTyGxYxa1Y&callback=initialize"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/map.css" type="text/css" rel="stylesheet" media="screen,projection"/> 
 </head>
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Hack the Heat</a>
+      <a id="logo-container" href="#" class="brand-logo">&lt;Hack the Heat/&gt;</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">About</a></li>
         <li><a href="#">Schedule</a></li>
@@ -40,7 +43,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Hack the Heat</h1>
+        <h1 class="header center black-text text-lighten-2">&lt;Hack the Heat/&gt;</h1>
         <div class="row center">
           <h5 class="header col s12 light">A Student-Driven Hackathon on August Nth, 2016</h5>
         </div>
@@ -62,7 +65,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">business</i></h2>
+            <h2 class="center black-text"><i class="material-icons">business</i></h2>
             <h5 class="center">What is Hack the Heat?</h5>
 
             <p class="light">Hack the Heat is a 24 hour student-run summer hackathon, aimed at giving high-school students an opportunity to collaborate, design, and build awesome apps and hacks, while competing for awesome prizes!</p>
@@ -71,7 +74,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">today</i></h2>
+            <h2 class="center black-text"><i class="material-icons">today</i></h2>
             <h5 class="center">Schedule</h5>
 
             <p class="center light">Click here to check out our agenda.</p>
@@ -80,7 +83,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">question_answer</i></h2>
+            <h2 class="center black-text"><i class="material-icons">question_answer</i></h2>
             <h5 class="center">FAQs</h5>
 
             <p class="light">There aren't many events like this. Click here to find out what it's all about.</p>
@@ -136,12 +139,12 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 id="where">Where it's At</h4>
-          <p class="center-align light" style="padding-bottom:220px">Hack the Heat 2016 will be hosted at Power Objects in Minneapolis. <br>MAP GOES HERE PLS</p>
+          <p class="center-align light" style="padding-bottom:0px">Hack the Heat 2016 will be hosted at Power Objects in Minneapolis.</p>
         </div>
       </div>
-
     </div>
   </div>
+  <div id="map"></div>
 
   <div class="container">
     <div class="section">
@@ -245,7 +248,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 id="faq">FAQ</h4>
-          <p class="center-align light" style="padding-bottom:220px">Hack the Heat 2016 will be hosted at Power Objects in Minnapolis. <br>MAP GOES HERE PLS</p>
+          <p class="center-align light" style="padding-bottom:220px">
         </div>
       </div>
 
@@ -311,7 +314,7 @@
          
       </p>
        <a href="https://github.com/dukeeagle" class="secondary-content"><i style="margin-right:20px" class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="www.linkedin.com/in/lucas-igel-01803a117" class="secondary-content"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/lucas-igel-01803a117" class="secondary-content"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
       
     </li>
   </ul>
