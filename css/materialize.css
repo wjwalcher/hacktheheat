@@ -2248,7 +2248,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: "Lazer84";
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -2451,7 +2451,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Lazer84";
   font-size: 1em;
 }
 
@@ -2838,7 +2838,7 @@ video.responsive-video {
   color: rgba(255, 255, 255, 0.7);
   vertical-align: top;
   display: inline-block;
-  font-family: 'Material Icons';
+  font-family: 'Lazer84';
   font-weight: normal;
   font-style: normal;
   font-size: 25px;
@@ -4261,6 +4261,11 @@ nav .input-field label.active {
   }
 }
 
+@font-face{
+  font-family: "Lazer84";
+  src: url("../fonts/Lazer84.ttf");
+}
+
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.eot");
@@ -4302,7 +4307,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lazer84", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -8181,3 +8186,4 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+
