@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #000000;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
   font-family:'Lazer84' !important;
 }
 .button-collapse {
-  color: #26a69a;
+  color: #ec407a;
 }
 
 .parallax-container {

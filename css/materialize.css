@@ -3159,6 +3159,7 @@ td, th {
   position: absolute;
   top: 16px;
   right: 16px;
+  color:black;
 }
 
 .collection .collection-item:last-child {
