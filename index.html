@@ -14,8 +14,9 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/map.css" type="text/css" rel="stylesheet" media="screen,projection"/> 
 </head>
-<body>
-  <nav style="background-color: #C774E8" role="navigation">
+<!--#9B70E4-- #db5790---background: linear-gradient(#FF6AD5, #8795E8)-->
+<body id="body"style=" background-rep">
+  <nav style="background: linear-gradient(#FF6AD5, #8795E8) fixed !important;" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" class="brand-logo lazer" style="padding-left: 56px; font-size:25px;">&lt;Hack&nbsp; the&nbsp; Heat/&gt;</a>
       <ul class="right hide-on-med-and-down">
@@ -48,7 +49,7 @@
           <h5 class="header col s12 light" style="margin-top:-23px">A Student-Driven Hackathon on August Nth, 2016</h5>
         </div>
         <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light pink lighten-1" style="margin-top:-12px; background-color:#8795E8 !important">Sign Up</a>
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light pink lighten-1" style="margin-top:-12px; background-color:#c386f9 !important">Sign Up</a>
         </div>
         <br><br>
 
@@ -67,28 +68,28 @@
           <div class="icon-block">
 
             <h2 class="center black-text"><i class="material-icons">business</i></h2>
-            <h5 class="center lazer">What is Hack the Heat?</h5>
+            <h5 class="center lazer white-text">What is Hack the Heat?</h5>
 
 
-            <p class="center light">Hack the Heat is a 24 hour student-run summer hackathon, aimed at giving high-school students an opportunity to collaborate, design, and build awesome apps and hacks, while competing for awesome prizes!</p>
+            <p class="center light white-text">Hack the Heat is a 24 hour student-run summer hackathon, aimed at giving high-school students an opportunity to collaborate, design, and build awesome apps and hacks, while competing for awesome prizes!</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">today</i></h2>
-            <h5 class="center lazer">Schedule</h5>
+            <h5 class="center lazer white-text">Schedule</h5>
 
-            <p class="center light">Click here to check out our agenda.</p>
+            <p class="center light white-text">Click here to check out our agenda.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center black-text"><i class="material-icons">question_answer</i></h2>
-            <h5 class="center lazer">FAQs</h5>
+            <h5 class="center lazer white-text">FAQs</h5>
 
-            <p class="center light">There aren't many events like this. Click here to find out what it's all about.</p>
+            <p class="center light white-text">There aren't many events like this. Click here to find out what it's all about.</p>
           </div>
         </div>
       </div>
@@ -97,7 +98,7 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="about" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -113,8 +114,8 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 id="about" class="lazer">About &nbsp;the&nbsp; Event</h4>
-          <p class="left-align light">Hack the Heat is a Hackathon created by and for high school students in the Twin Cities metro area. Running from August nth to nth 2016, beginner and advanced participants alike will arrive and stay for 24 hours, working away to create something awesome. Whether you've never written a line of code or you're a published app developer, Hack the Heat has something to offer for everybody.</p>
+          <h4 class="lazer white-text">About &nbsp;the&nbsp; Event</h4>
+          <p class="left-align light white-text">Hack the Heat is a Hackathon created by and for high school students in the Twin Cities metro area. Running from August nth to nth 2016, beginner and advanced participants alike will arrive and stay for 24 hours, working away to create something awesome. Whether you've never written a line of code or you're a published app developer, Hack the Heat has something to offer for everybody.</p>
         </div>
       </div>
 
@@ -130,7 +131,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div id="where" class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <div class="container">
@@ -140,8 +141,8 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 id="where" class="lazer">Where it's At</h4>
-          <p class="center-align light" style="padding-bottom:0px">Hack the Heat 2016 will be hosted at Power Objects in Minneapolis.</p>
+          <h4 class="lazer">Where it's At</h4>
+          <p id="schedule" class="center-align light" style="padding-bottom:0px">Hack the Heat 2016 will be hosted at Power Objects in Minneapolis.</p>
         </div>
       </div>
     </div>
@@ -240,7 +241,7 @@
 
           </tr>
           <tr>
-            <td>12 AM</td>
+            <td id="faq">12 AM</td>
 
           </tr>
         </tbody>
@@ -259,16 +260,19 @@
 
       <div class="row">
         <div class="col s12 center">
-          <h4 id="faq" class="lazer">FAQ</h4>
+          <h4  class="lazer">FAQ</h4>
          
           <h3><i class="mdi-content-send brown-text"></i></h3>
 
           <div class="card-content">
           <ul>
-              <li class="col s12 m6"><h6><strong>Q: What is a "hackathon"?</strong><h6><p>Hackathons are large events in which people come together to engage in collaborative computer programming or hardware modification for an extended period of time.</p></li>
-              <li class="col s12 m6"><h6><strong>Q: How long will the event last?</strong><h6><p>Hack the Heat will run for 24 hours, from noon to noon.</p></li>
-              <li class="col s12 m6"><h6><strong>Q: What should I bring?</strong><h6><p>Bring your computer and a mouse. If you plan on sleeping, bring a sleeping bag, pillow, and toothbrush. Desktop PCs and monitors in addition to laptops are allowed.</p></li>
-              <li class="col s12 m6"><h6><strong>Q: Where will I sleep?</strong><h6><p>Those who plan to sleep can do so anywhere throughout the venue. Make sure to bring a sleeping bag and pillow.</p></li>
+              <li class="col s12 m4"><h6><strong>Q: What is a "hackathon"?</strong><h6><p>Hackathons are large events in which people come together to engage in collaborative computer programming or hardware modification for an extended period of time.</p></li>
+              
+              <li class="col s12 m4"><h6><strong>Q: What should I bring?</strong><h6><p>Bring your computer and a mouse. If you plan on sleeping, bring a sleeping bag, pillow, and toothbrush. Desktop PCs and monitors in addition to laptops are allowed.</p></li>
+              <li class="col s12 m4"><h6><strong>Q: How long will the event last?</strong><h6><p>Hack the Heat will run for 24 hours, from noon to noon.<br><br><br><br><br><br></p></li>
+              <li class="col s12 m4"><h6><strong>Q: Where will I sleep?</strong><h6><p>Those who plan to sleep can do so anywhere throughout the venue. Make sure to bring a sleeping bag and pillow.</p></li>
+              <li class="col s12 m4"><h6><strong>Q: I don't know how to code! Should I still come?</strong><h6><p>Definitely! Here at Hack the Heat there will be multiple workshops and tutorials for those of all skill levels, especially those who don't know how to code.</p></li>
+              <li class="col s12 m4"><h6><strong>Q: Is this similar to CodeDay?</strong><h6><p>Very much so! Like CodeDay, Hack the Heat is open to high school students of all skill levels, regardless of prior knowledge. Unlike CodeDay however, we'll be providing electronics kits and other fun stuff if you feel like making something in the physical world!</p></li>
           </ul>
 
         </div>
@@ -298,12 +302,12 @@
     </div>
   </div>
 
-  <footer id="creators" style="background-color:#8795E8 !important"class="page-footer teal z-depth-1">
+  <footer id="creators" style="background: linear-gradient(#c386f9, #8795E8) fixed !important;"class="page-footer teal z-depth-1">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Who We Are</h5>
-          <p class="grey-text text-lighten-4" >We are two high school students with a passion for everything computers. To find out more about us, check out the links below.</p>
+          <p class="grey-text text-lighten-4" >We are two high school students with a passion for everything computers. To find out more about us, check out the following links.</p>
 
 
         </div>
@@ -318,7 +322,7 @@
       <a href="https://www.linkedin.com/in/williamwalcher" class="secondary-content"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
     </li>
     <li class="collection-item avatar">
-      <img src="images/frank.jpg" alt="" class="circle">
+      <img src="images/luke.jpg" alt="" class="circle">
       <span class="title"><strong>Luke Igel</strong></span>
       <p>Junior at Providence Academy<br>
          

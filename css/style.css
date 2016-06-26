@@ -11,6 +11,18 @@ nav .brand-logo {
   color: #000000;
 }
 
+.white-text{
+  color:white;
+}
+#body{
+
+  background: linear-gradient(#FF6AD5, #8795E8) fixed !important;
+  height: 100%;
+  margin:0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
 p {
   line-height: 2rem;
 }
