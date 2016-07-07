@@ -2653,7 +2653,7 @@ ul.browser-default {
 }
 
 a {
-  color: #039be5;
+  color: black;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -3109,18 +3109,18 @@ td, th {
 
 .collection {
   margin: 0.5rem 0 1rem 0;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #13131F;
   border-radius: 2px;
   overflow: hidden;
   position: relative;
 }
 
 .collection .collection-item {
-  background-color: #fff;
+  background-color: #557ea0;
   line-height: 1.5rem;
   padding: 10px 20px;
   margin: 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 .collection .collection-item.avatar {
@@ -3159,7 +3159,7 @@ td, th {
   position: absolute;
   top: 16px;
   right: 16px;
-  color:black;
+  color:white;
 }
 
 .collection .collection-item:last-child {
@@ -4315,7 +4315,7 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: rgba(0, 0, 0, 0.87);
+  color: #000000;
 }
 
 @media only screen and (min-width: 0) {
@@ -4548,7 +4548,7 @@ small {
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: #557ea0;
   transition: box-shadow .25s;
   border-radius: 2px;
 }
@@ -8192,4 +8192,3 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
-
