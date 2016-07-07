@@ -16,7 +16,7 @@ nav .brand-logo {
 }
 #body{
 
-  background: linear-gradient(#FF6AD5, #8795E8) fixed !important;
+  background: -webkit-linear-gradient(270deg, #352baa 0%, #008080 100%) fixed !important;
   height: 100%;
   margin:0;
   background-repeat: no-repeat;
@@ -73,4 +73,8 @@ footer.page-footer {
 
 body{
   background-color:#FF6AD5;
+}
+
+a{
+  text-decoration: none;
 }
